@@ -23,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: AppThemeColors.bottomNavBarColor,
       resizeToAvoidBottomInset: false,
       bottomNavigationBar: Padding(
-        padding: EdgeInsets.only(bottom: Platform.isIOS ? 30 : 5),
+        padding: EdgeInsets.only(bottom: 5),
         child: NavigationBar(
           height: 45,
           backgroundColor: AppThemeColors.bottomNavBarColor,
