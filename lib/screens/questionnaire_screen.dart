@@ -46,7 +46,7 @@ class _QuestionnaireScreenState extends State<QuestionnaireScreen> {
                   AppThemeColors.black,
                   Colors.transparent,
                 ],
-              ).createShader(Rect.fromLTRB(0, rect.height, 0, -130));
+              ).createShader(Rect.fromLTRB(0, rect.height - 30, 0, -30));
             },
             blendMode: BlendMode.dstIn,
             child: Image.asset(
