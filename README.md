@@ -1,6 +1,6 @@
 # Task-1
 
-Task for Comapny interview process.
+Task for Company interview process.
 
 ---
 
