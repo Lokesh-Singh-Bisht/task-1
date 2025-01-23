@@ -1,7 +1,6 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
-
 import 'package:flutter_svg/svg.dart';
-
 import 'package:go_router/go_router.dart';
 import 'package:stroll_task_1/helpers/constants/asset_image.dart';
 import 'package:stroll_task_1/themes/colors.dart';
@@ -24,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: AppThemeColors.bottomNavBarColor,
       resizeToAvoidBottomInset: false,
       bottomNavigationBar: Padding(
-        padding: const EdgeInsets.only(bottom: 10),
+        padding: EdgeInsets.only(bottom: Platform.isIOS ? 30 : 10),
         child: NavigationBar(
           height: 45,
           backgroundColor: AppThemeColors.bottomNavBarColor,
